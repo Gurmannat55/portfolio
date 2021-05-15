@@ -19,13 +19,13 @@
   "projects": {
 
     "project-1": {
-      "img": "",
+      "img": "../images/project1.jpg,",
       "name": "Portfolio",
       "description": "Used HTML, CSS, jQuery to develop a dynamic web application with functional features like resume download and contact with email capabilities. Resulted in a modern portfolio with good looking CSS and web page design full of information."
     },
 
     "project-2": {
-      "img": "",
+      "img": "../images/project2.jpg",
       "name": "CyberKnox",
       "description": "A group project to demonstrate spring boot framework implementation. A dummy banking app to use MySQL database to store users and encrypted login information. This application uses spring web, spring data jdbc, spring security and thymeleaf to perform dummy operation like a bank."
     },
