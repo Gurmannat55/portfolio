@@ -31,7 +31,7 @@
     },
 
     "project-3": {
-      "img": "../img/project3.jpg",
+      "img": "../imgages/project3.jpg",
       "name": "MarketBot",
       "description": "Implemented a Slack Bot with the functional capability of requesting access to different services using RBC’s access request platform. Solution for easy and bulk access requests and were prized 1st place for business scope lean canvas."
     }
