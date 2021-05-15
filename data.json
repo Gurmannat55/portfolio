@@ -19,7 +19,7 @@
   "projects": {
 
     "project-1": {
-      "img": "../images/project1.jpg,",
+      "img": "../images/project1.JPG",
       "name": "Portfolio",
       "description": "Used HTML, CSS, jQuery to develop a dynamic web application with functional features like resume download and contact with email capabilities. Resulted in a modern portfolio with good looking CSS and web page design full of information."
     },
