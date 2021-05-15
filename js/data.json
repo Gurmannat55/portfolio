@@ -6,12 +6,19 @@
  
     },
 
-    "projects":[
+   "services": [
 
-        {"project-1":{
-            "name":"1st Project"
-        }}
-    ],
+    {
+      "web-design": "Web design, web graphic design, user interface design, including standardized code and proprietary software, user experience design and search engine optimization."
+    },
+    {
+      "web-appllication-development": "Web app development by using modern web design and css. This also inlucdes functions or libraries used for modern deveopment such as Agular, jQuery, Node etc."
+    },
+    { "api-development": "Application programming interface development using Java, Spring Boot, JDBC, Restful Microservices and any frontend webpages." },
+    { "api-deployment": "Deployment through deployments tools like Jenkins, Urban Code Deploy, Pivotal Cloud Foundry and Ansible." }
+
+  ],
+
     
     "about":"Im inside js"
 }
