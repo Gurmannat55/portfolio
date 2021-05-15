@@ -84,28 +84,28 @@ $(document).ready(function() {
                 <div class="box">
                     <i class="fas fa-paint-brush"></i>
                     <div class="text">Web Design</div>
-                    <p>${services["web-design"]}</p>
+                    <p>${services.web-design}</p>
                 </div>
             </div>
             <div class="card ripple" data-aos="fade-up">
                 <div class="box">
                     <i class="fas fa-file-code"></i>
                     <div class="text">Web App Development</div>
-                    <p>${services["web-appllication-development"]}</p>
+                    <p>${services.web-appllication-development}</p>
                 </div>
             </div>
             <div class="card ripple" data-aos="fade-up">
                 <div class="box">
                     <i class="fas fa-code"></i>
                     <div class="text">API Development</div>
-                    <p>${services["api-development"]}</p>
+                    <p>${services.api-development}</p>
                 </div>
             </div>
             <div class="card ripple" data-aos="fade-up">
             <div class="box">
             <i class="fas fa-server"></i>
                 <div class="text">API Deployment</div>
-                <p>${services["api-deployment"]}</p>
+                <p>${services.api-deployment}</p>
             </div>
         </div>
         `);
@@ -119,7 +119,7 @@ $(document).ready(function() {
             <p><b>Database: </b>${skills.database}</p><br>
         `);
         $("#dev-ops").html(`
-            <p><b>Development & Deployment: </b>${skills["dev-ops"]}</p><br>
+            <p><b>Development & Deployment: </b>${skills.dev-ops}</p><br>
         `);
         $("#office").html(`
             <p><b>Microsoft Office: </b>${skills.office}</p>
