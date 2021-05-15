@@ -131,7 +131,7 @@ $(document).ready(function() {
     function loadProjectsInfo(projects) {
         $(".project-1").html(`
             <div class="box">
-                <img src="${projects["project-1"].img}" alt="project-1">
+                <img src="${projects.project1.img}" alt="project-1">
                 <div class="text">${projects["project-1"].name}</div>
                 <p>${projects["project-1"].description}</p>
             </div>
