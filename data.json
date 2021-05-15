@@ -8,13 +8,33 @@
 
   },
 
-  "services": 
-  {
+  "services": {
     "web-appllication-development": "Web app development by using modern web design and css. This also inlucdes functions or libraries used for modern deveopment such as Agular, jQuery, Node etc.",
     "web-design": "Web design, web graphic design, user interface design, including standardized code and proprietary software, user experience design and search engine optimization.",
     "api-development": "Application programming interface development using Java, Spring Boot, JDBC, Restful Microservices and any frontend webpages.",
     "api-deployment": "Deployment through deployments tools like Jenkins, Urban Code Deploy, Pivotal Cloud Foundry and Ansible."
 
+  },
+
+  "projects": {
+
+    "project-1": {
+      "img": "",
+      "name": "Portfolio",
+      "description": "Used HTML, CSS, jQuery to develop a dynamic web application with functional features like resume download and contact with email capabilities. Resulted in a modern portfolio with good looking CSS and web page design full of information."
+    },
+
+    "project-2": {
+      "img": "",
+      "name": "CyberKnox",
+      "description": "A group project to demonstrate spring boot framework implementation. A dummy banking app to use MySQL database to store users and encrypted login information. This application uses spring web, spring data jdbc, spring security and thymeleaf to perform dummy operation like a bank."
+    },
+
+    "project-3": {
+      "img": "../img/project3.jpg",
+      "name": "MarketBot",
+      "description": "Implemented a Slack Bot with the functional capability of requesting access to different services using RBC’s access request platform. Solution for easy and bulk access requests and were prized 1st place for business scope lean canvas."
+    }
   },
 
 
