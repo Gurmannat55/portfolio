@@ -6,12 +6,6 @@
  
     },
 
-    "projects":[
-
-        {"project-1":{
-            "name":"1st Project"
-        }}
-    ],
    "services": [
 
     {
