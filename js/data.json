@@ -12,6 +12,7 @@
             "name":"1st Project"
         }}
     ],
+    services:[],
     
     "about":"Im inside js"
 }
