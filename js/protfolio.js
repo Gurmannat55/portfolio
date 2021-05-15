@@ -65,8 +65,9 @@ $(document).ready(function() {
         success: function(response) {
             loadAboutInfo(response.about);
             console.log(response.about);
-            loadServicesInfo(response.services);
             loadSkillsInfo(response.skills);
+            loadServicesInfo(response.services);
+            
             loadProjectsInfo(response.projects);
             loadGetInTouchInfo(response["contact-me"]);
         }
@@ -76,6 +77,20 @@ $(document).ready(function() {
         $("#about-info").html(
             `${about}`
         );
+    }
+    function loadSkillsInfo(skills) {
+        $("#programming").html(`
+            <p><b>Programming: </b>${skills.programming}</p><br>
+        `);
+        $("#database").html(`
+            <p><b>Database: </b>${skills.database}</p><br>
+        `);
+        $("#dev-ops").html(`
+            <p><b>Development & Deployment: </b>${skills["dev-ops"]}</p><br>
+        `);
+        $("#office").html(`
+            <p><b>Microsoft Office: </b>${skills.office}</p>
+        `);
     }
 
     function loadServicesInfo(services) {
@@ -111,20 +126,7 @@ $(document).ready(function() {
         `);
     }
 
-    function loadSkillsInfo(skills) {
-        $("#programming").html(`
-            <p><b>Programming: </b>${skills.programming}</p><br>
-        `);
-        $("#database").html(`
-            <p><b>Database: </b>${skills.database}</p><br>
-        `);
-        $("#dev-ops").html(`
-            <p><b>Development & Deployment: </b>${skills["dev-ops"]}</p><br>
-        `);
-        $("#office").html(`
-            <p><b>Microsoft Office: </b>${skills.office}</p>
-        `);
-    }
+  
 
     function loadProjectsInfo(projects) {
         $(".project-1").html(`
