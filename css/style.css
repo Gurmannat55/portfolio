@@ -710,7 +710,7 @@ footer {
 @media (max-width: 512px) {
     .max-width {
         padding: 0.7rem 2rem;
-    }
+    } 
     .text-1 {
         font-size: 1.2rem;
     }
