@@ -82,11 +82,11 @@ $(document).ready(function() {
         $(".services-content").html(`
             <div class="card ripple" data-aos="fade-up">
                 <div class="box">
-                    <i class="fas fa-paint-brush"></i>
+                    <i class="fas fa-paint-brush"></i> 
                     <div class="text">Web Design</div>
                     <p>${services["web-design"]}</p>
                 </div>
-            </div>
+            </div> 
             <div class="card ripple" data-aos="fade-up">
                 <div class="box">
                     <i class="fas fa-file-code"></i>
