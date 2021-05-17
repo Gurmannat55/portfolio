@@ -159,6 +159,6 @@ $(document).ready(function() {
     }
 
     $("#send").click(function() {
-        alert("This service is not available right now.");
+        alert("Thank You for contacting, I'll be in touch with you soon.");
     });
 });
