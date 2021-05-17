@@ -174,8 +174,9 @@
             </div>
             <div class="column right">
                 <div class="text">Message me</div>
-                <div class="fields">
-                    <form action="mailto:oberoi.mannat55@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+                <form action="mailto:oberoi.mannat55@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+
+                    <div class="fields">
                         <div>
                             <div class="field name">
                                 <input type="text" placeholder="Name" id="name" required>
@@ -187,13 +188,13 @@
                         <div class="field subject">
                             <input type="text" placeholder="Subject" id="subject" required>
                         </div>
-                </div>
-                <div class="field textarea">
-                    <textarea cols="30" rows="10" placeholder="Message content..." id="message" required></textarea>
-                </div>
-                <div class="button">
-                    <input type="submit" class="ripple" id="send" placeholder="Send message">
-                </div>
+                    </div>
+                    <div class="field textarea">
+                        <textarea cols="30" rows="10" placeholder="Message content..." id="message" required></textarea>
+                    </div>
+                    <div class="button">
+                        <input type="submit" class="ripple" id="send" placeholder="Send message">
+                    </div>
                 </form>
             </div>
         </div>
