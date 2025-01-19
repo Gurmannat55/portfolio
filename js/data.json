@@ -1,7 +1,7 @@
 {
   "skills": {
 
-    "programming": "Java, Spring Boot, JDBC, Restful Microservices, HTML, CSS, JavaScript, jQuery, Angular, Thyme Leaf, Python, C#, and .NET, WPF, UWP, WCF, ADO.NET, Entity Framework and Datasets in C#.",
+    "programming": "Java, Spring Boot, JDBC, Restful Microservices, HTML, CSS, JavaScript, jQuery, Angular, Thyme Leaf, Python",
     "database": "SQL, MySQL, Microsoft SQL Server, Oracle SQL Developer PL/SQL, Redis, NoSQL, MongoDB, Hash Tables, Redis, HSQL and Data Integration.",
     "dev-ops": "Eclipse, IntelliJ Idea, VS Code, VS Studio, Jenkins, Pivotal Cloud Foundry, Kibana Logging and Postman.",
     "json": "Outlook, Word, Excel, and PowerPoint."
