@@ -150,6 +150,13 @@ $(document).ready(function() {
                 <p>${projects["project-3"].description}</p>
             </div>
     `);
+        $(".project-4").html(`
+            <div class="box">
+                <img src="${projects["project-4"].img}" alt="project-1">
+                <div class="text">${projects["project-4"].name}</div>
+                <p>${projects["project-4"].description}</p>
+            </div>
+    `);
     }
 
     function loadGetInTouchInfo(contact) {
