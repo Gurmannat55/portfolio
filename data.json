@@ -31,9 +31,9 @@
     },
 
     "project-3": { 
-      "img": "../images/project3.jpg",
-      "name": "MarketBot",
-      "description": "Implemented a Slack Bot with the functional capability of requesting access to different services using RBC�s access request platform. Solution for easy and bulk access requests and were prized 1st place for business scope lean canvas."
+      "img": "../images/itinerary.png",
+      "name": "Itinerary Builder",
+      "description": "A full-stack web app built with Python Flask, HTML, CSS, JavaScript, and SQLite, designed to streamline trip planning. It includes dynamic routing, responsive UI, database integration for storing and managing itineraries, and API integration to fetch real-time travel data. The project emphasizes scalability, clean code architecture, and an intuitive user experience."
     }
   },
 
